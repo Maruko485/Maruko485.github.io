@@ -2,11 +2,16 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
 
+<embed src="{{ '/files/marcocheng_cv.pdf' | relative_url }}"
+       type="application/pdf"
+       width="100%" height="950px" />
+
+<!-- 
 {% include base_path %}
 
 Education
@@ -61,4 +66,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->

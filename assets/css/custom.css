@@ -1,0 +1,16 @@
+/* New Addition From Marco: Sticky Header */
+
+/* Makes the site header sticky */
+.site-header {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures the header stays on top of other content */
+  width: 100%;
+  
+  /* Optional: Add a background color. 
+     This is important so content doesn't show through the header as you scroll. 
+     You may need to adjust the color to match your site's theme. */
+  background-color: white; 
+}
+
