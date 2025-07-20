@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: false
@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<embed src="{{ '\files\marcocheng_researchcv.pdf' | relative_url }}"
+<embed src="{{ '/files/marcocheng_researchcv.pdf' | relative_url }}"
        type="application/pdf"
        width="100%" height="950px" />
 
